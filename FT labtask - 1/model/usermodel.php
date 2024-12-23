@@ -1,7 +1,7 @@
 <?php
 
 function getConnection() {
-    $con = mysqli_connect('127.0.0.1', 'root', 'root', 'webtech', 8889);
+    $con = mysqli_connect('127.0.0.1', 'root', 'webtech',);
     if (!$con) {
         die("Connection failed: " . mysqli_connect_error());
     }
